@@ -1,0 +1,157 @@
+{
+  "id": "d9e12a43-34f8-46c7-8b9d-f5e7ebe31234",
+  "version": "2.0",
+  "name": "AutoTestChess",
+  "url": "https://www.coolmathgames.com/0-chess",
+  "tests": [{
+    "id": "ca70f876-942d-49b6-938c-29008651a3ed",
+    "name": "Untitled",
+    "commands": [{
+      "id": "63d3d9b1-e3ba-4178-b367-66f45788d55a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coolmathgames.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fdbfabf-49ad-49a3-9727-330a62f60edb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af7580c1-5f9f-49c1-bd3a-1fd30e9fdb21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_strategy",
+      "targets": [
+        ["css=.menu_strategy", "css:finder"],
+        ["xpath=//a[contains(text(),'Strategy')]", "xpath:link"],
+        ["xpath=//nav[@id='block-desktopheadermenu']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/1-strategy-games')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e839b08d-5957-4ebb-8c1c-6ddb891d40be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block:nth-child(2) .game-item:nth-child(1) .game-title",
+      "targets": [
+        ["css=.block:nth-child(2) .game-item:nth-child(1) .game-title", "css:finder"],
+        ["xpath=//div[@id='block-cmatgame-cmatgame-system-main']/div/div/div/div/div[2]/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Chess')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "721f75f8-8f9f-4e45-96e7-4e75d89bc8bc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ec73be-48e8-4f63-ba10-4662ae418776",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Play vs. computer",
+      "targets": [
+        ["linkText=Play vs. computer", "linkText"],
+        ["css=.cmg-vs-computer", "css:finder"],
+        ["xpath=//a[contains(text(),'Play vs. computer')]", "xpath:link"],
+        ["xpath=//a[@onclick='trackEvent(\"Chess Game Type\", \"Play vs Computer\", \"Play vs Computer\", 0);']", "xpath:attributes"],
+        ["xpath=//div[@id='start_buttons']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/setup/ai')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Play vs. computer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "684e5d4e-fcdc-4d82-a642-6efc7cdb1ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .required > img",
+      "targets": [
+        ["css=div:nth-child(1) > .required > img", "css:finder"],
+        ["xpath=//div[@id='hooks_wrap']/div/form/div[4]/group/div/label/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e09d15fa-9a95-40ae-bc05-c08ebd00ba13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmg-submit-button",
+      "targets": [
+        ["css=.cmg-submit-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='hooks_wrap']/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'START')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eca0507-0fc5-4196-b638-13be03eff1a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#backtohomeBtn > button",
+      "targets": [
+        ["css=#backtohomeBtn > button", "css:finder"],
+        ["xpath=//div[@id='backtohomeBtn']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back to Chess Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb5ddbb-fc20-4f73-a735-46a876b7cfd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#backtohomeBtn > button",
+      "targets": [
+        ["css=#backtohomeBtn > button", "css:finder"],
+        ["xpath=//div[@id='backtohomeBtn']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back to Chess Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b598648b-d8a2-4a8c-8c25-5387daf48713",
+      "comment": "",
+      "command": "click",
+      "target": "css=#backtohomeBtn > button",
+      "targets": [
+        ["css=#backtohomeBtn > button", "css:finder"],
+        ["xpath=//div[@id='backtohomeBtn']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back to Chess Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc2e6ed-e633-4cec-9677-db70f16942b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abort:nth-child(2)",
+      "targets": [
+        ["css=.abort:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='backtohmPop']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Leave Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65c14331-ba69-430b-873e-e13efe906364",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ca70f876-942d-49b6-938c-29008651a3ed"]
+  }],
+  "urls": ["https://www.youtube.com/", "https://www.coolmathgames.com/0-chess"],
+  "plugins": []
+}
